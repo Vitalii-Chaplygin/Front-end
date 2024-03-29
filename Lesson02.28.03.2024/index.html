@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lesson02</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <form method="get">
+      <!-- форма текста  обязательно атрибут name-->
+      <input type="text" name="lastName1" disabled />
+      <br /><br />
+      <input type="text" name="lastName2" required placeholder="введите имя" />
+      <br /><br />
+      <label>
+        <input type="text" name="lastName3" />
+        Введите данные
+      </label>
+
+      <br /><br />
+
+      <label for="lastName4">Введите имя</label>
+      <input type="text" name="lastName4" id="lastName4" />
+
+      <br /><br />
+
+      <!-- <input type="submit" value="отправить"> -->
+
+
+      выберите город
+      <select name="select1" >
+        <option value="Kiev">Киев</option>
+        <option value="Kharkov">Харьков</option>
+        <option value="Poltava">Полтава</option>
+      </select>
+
+
+
+
+      <button type="submit">отправить</button>
+
+
+
+
+    </form>
+  </body>
 </html>
