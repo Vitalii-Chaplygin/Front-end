@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>user data form</title>
+  </head>
+  <body style="margin-top: 20px">
+    <div
+      style="background-color: rgb(235, 221, 198); display: block; width: 350px"
+    >
+      <form>
+        <label>
+          First Name:
+          <input type="text" name="FirstName" />
+        </label>
+        <br /><br />
+        <label>
+          Last Name:
+          <input type="text" name="LastName" />
+        </label>
+        <br /><br />
+        <label>
+          Email:
+          <input type="email" name="Email" />
+          <br /><br />
+          Re-type Email:
+          <input type="email" name="Re-typeEmail" />
+        </label>
+        <br /><br />
+        <label>
+          Password:
+          <input type="password" name="Password" />
+        </label>
+        <br /><br />
+
+        <label>
+          Re-type Password:
+          <input type="password" name="Password" />
+        </label>
+        <br /><br />
+        <label>
+          Address:
+          <input type="text" name="Address" />
+        </label>
+        <br /><br />
+        <label>
+          City:
+          <select name="city">
+            <option value="London">London</option>
+            <option value="Edinburgh">Edinburgh</option>
+            <option value="Cardiff">Cardiff</option>
+            <option value="Belfast">Belfast</option>
+            <option value="Glasgow">Glasgow</option>
+            <option value="Birmingham">Birmingham</option>
+            <option value="Liverpool">Liverpool</option>
+            <option value="Manchester">Manchester</option>
+            <option value="Bradford">Bradford</option>
+            <option value="Leeds">Leeds</option>
+            <option value="Oxford">Oxford</option>
+            <option value="Cambridge">Cambridge</option>
+            <option value="Sheffield">Sheffield</option>
+          </select>
+        </label>
+        <br /><br />
+        <label>
+          Phone number:
+          <input type="number" min="0" name="PhoneNumber" />
+        </label>
+        <br /><br />
+        <label>
+          Date of Birth:
+          <input type="date" name="DateOfBirth" />
+        </label>
+      </form>
+    </div>
+    <style>
+      input {
+        display: block;
+        float: right;
+        margin-right: 40px;
+      }
+      select {
+        margin-left: 100px;
+      }
+      input[type="date"] {
+        margin-right: 100px;
+      }
+      form {
+        height: 350px;
+        padding-top: 10px;
+      }
+    </style>
+  </body>
+</html>
