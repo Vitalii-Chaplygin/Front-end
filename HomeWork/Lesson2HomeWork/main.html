@@ -7,9 +7,9 @@
   </head>
   <body style="margin-top: 20px">
     <div
-      style="background-color: rgb(235, 221, 198); width: 350px"
+      style="background-color: rgb(235, 221, 198); width: 350px;border: 1px solid ; border-radius: 3px;"
     >
-      <form>
+      <form method="get">
         <label>
           First Name:
           <input type="text" name="FirstName" />
@@ -23,7 +23,9 @@
         <label>
           Email:
           <input type="email" name="Email" />
+        </label>
           <br /><br />
+          <label>
           Re-type Email:
           <input type="email" name="Re-typeEmail" />
         </label>
@@ -72,6 +74,8 @@
           Date of Birth:
           <input type="date" name="DateOfBirth" />
         </label>
+        <br><br>
+        <button type="submit">SEND</button>
       </form>
     </div>
     <style>
@@ -87,10 +91,14 @@
         margin-right: 100px;
       }
       form {
-        height: 350px;
+        height: 390px;
         padding-top: 10px;
       }
       label{
+        margin-left: 10px;
+      }
+      button{
+        width: 80px;
         margin-left: 10px;
       }
     </style>
