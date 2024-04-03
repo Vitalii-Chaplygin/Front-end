@@ -1,0 +1,44 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.conteiner{
+  
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: aqua;
+  height: 100%;
+}
+
+
+
+.info-player{
+  width: 70%;
+  margin: 0 auto;
+  background-color: red;
+  display: block;
+  min-height: 700px;
+
+}
+.foto{
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+}
+.span-wrapper{
+  width: 200px;
+  height: 200px;
+}
+.foto-img-two{
+  background:#eee;
+width:200px;
+height:200px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.info-Ronaldo2{
+  width: 350px;
+  height: 500px;
+}
