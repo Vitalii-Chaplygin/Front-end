@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.div1{
+  height: 600px;
+  background-repeat: no-repeat;
+ 
+  background-image:url("https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png") ;
+}
+
+
+
