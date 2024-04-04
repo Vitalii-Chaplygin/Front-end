@@ -22,8 +22,6 @@ p{
   min-height: 800px;
   margin-top: 30px;
   background: #466368;
-  background: -webkit-linear-gradient(#648880, #293f50);
-  background:  -moz-linear-gradient(#648880, #293f50);
   background:  linear-gradient(#648880, #293f50);
   text-align: center;
 }
