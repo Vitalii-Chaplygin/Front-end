@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header-top {
+  background: rgb(10, 10, 10);
+  padding: 33px 0 32px;
+  width: 100%;
+  position: fixed;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  /* background-color: rgb(245, 245, 247); */
+}
+
+.nav {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(10, 10, 10);
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  padding-right: 30px;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.nav-link {
+  color: rgb(113, 113, 113);
+}
+
+.nav-link:hover {
+  color: rgb(238, 245, 245);
+  border-bottom: 1px solid;
+}
+
+.nav-item:last-child {
+  padding-right: 0;
+}
+
+.iphone-title {
+  background-color: rgb(245, 245, 247);
+  padding-top: 160px;
+  text-align: center;
+  margin-bottom: 50px;
+  height: 1100px;
+}
+
+.img-phone {
+  width: 937px;
+  height: 657px;
+  margin-bottom: 30px;
+}
+
+.phone {
+  color: rgb(113, 113, 113);
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.phone:hover {
+  color: rgb(238, 245, 245);
+  border-bottom: 1px solid;
+}
+
+.title {
+  color: rgb(73, 14, 132);
+  font-family: Inter, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.btn {
+  border-radius: 30px;
+  background: rgb(73, 14, 132);
+  width: 350px;
+  height: 70px;
+  border: none;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: rgb(14, 19, 19);
+}
+.wrapper-new {
+  height: 540px;
+  /* background-color: aqua; */
+  text-align: center;
+}
+
+.discriptionAndFoto {
+  height: 445px;
+  /* background-color: rgb(245, 130, 130); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.discription {
+  width: 560px;
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+  
+.h2-title {
+  width: 215px;
+  height: 39px;
+  color: rgb(113, 113, 113);
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline;
+  
+}
+.text-small {
+  color: rgb(10, 10, 10);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: left;
+  
+}
+.text-bolt {
+  color: rgb(10, 10, 10);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: left;
+}
+
+.choise-color{
+  height: 483px;
+  background-color: brown;
+}
+
+
