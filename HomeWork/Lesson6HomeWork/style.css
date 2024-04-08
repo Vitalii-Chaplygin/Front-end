@@ -18,7 +18,6 @@
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto;
-  
 }
 
 .nav {
@@ -49,7 +48,6 @@
 
 .nav-link:hover {
   color: rgb(238, 245, 245);
-  
 }
 
 .nav-item:last-child {
@@ -79,12 +77,10 @@
   flex-grow: 1;
   flex-basis: 0;
   text-align: right;
-  
 }
 
 .phone:hover {
   color: rgb(238, 245, 245);
- 
 }
 
 .title {
@@ -114,14 +110,12 @@
 }
 .wrapper-new {
   height: 540px;
- 
   text-align: center;
   margin-bottom: 150px;
 }
 
 .discriptionAndFoto {
   height: 445px;
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -146,6 +140,7 @@
   text-transform: uppercase;
   display: inline;
 }
+
 .text-small {
   color: rgb(10, 10, 10);
   font-family: Inter, sans-serif;
@@ -154,6 +149,7 @@
   line-height: 130%;
   text-align: left;
 }
+
 .text-bolt {
   color: rgb(10, 10, 10);
   font-family: Inter;
@@ -168,15 +164,18 @@
   text-align: center;
   margin-bottom: 150px;
 }
+
 .choice-phone {
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
 }
+
 .colors {
   width: 240px;
   height: 320px;
 }
+
 .name-en {
   color: rgb(10, 10, 10);
   font-family: Inter, sans-serif;
@@ -194,6 +193,7 @@
   font-weight: 400;
   line-height: 130%;
 }
+
 .order-phone {
   width: 600px;
   height: 600px;
@@ -203,6 +203,7 @@
   justify-content: center;
   background: rgb(87, 75, 99);
 }
+
 input {
   background: none;
   width: 400px;
@@ -217,6 +218,7 @@ input::placeholder {
   font-size: 18px;
   font-weight: 400;
 }
+
 input[type="text"],
 input[type="number"],
 input[type="email"] {
@@ -231,6 +233,7 @@ input[type="email"] {
 .input-number {
   margin-bottom: 20px;
 }
+
 .input-email {
   margin-bottom: 30px;
 }
@@ -239,12 +242,15 @@ input[type="email"] {
   width: 600px;
   height: 600px;
 }
+
 .form {
   margin-top: 20px;
 }
+
 .wrapper-order {
   display: flex;
 }
+
 .order-title {
   color: rgb(255, 255, 255);
   font-family: Inter;
@@ -261,6 +267,7 @@ input[type="email"] {
   opacity: 0.5;
   margin-bottom: 20px;
 }
+
 .btn-form {
   width: 240px;
   height: 50px;
@@ -274,9 +281,10 @@ input[type="email"] {
   font-weight: 700;
   line-height: 130%;
 }
+
 .footer{
   background: rgb(10, 10, 10);
-  padding: 33px 0 32px;
+  padding: 33px 0 33px;
   width: 100%;
   
 }
