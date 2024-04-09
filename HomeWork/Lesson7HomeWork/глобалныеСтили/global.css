@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container{
+  width: 75%;
+ 
+  margin: 0 auto;
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  height: 100px;
+}
+
+.logo-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+ /* background-color: rgb(153, 83, 83); */
+  
+}
+.logo-img{
+  width:93px ;
+  height: 33px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.header-nav a{
+  padding-right: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size:20px;
+  color: #303030;
+}
+
+.header-nav a:last-child{
+  padding-right: 0px;
+}
+.content-wrapper{
+  margin-bottom: 30px;
+}
+
+
+
+.phone-icon-box{
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-btn{
+  width: 254px;
+  height:34px ;
+  border: none;
+  background:#f8f9ff;;
+
+  color: #0082d0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.phons{
+  font-style: normal;
+  font-weight: 400;
+  font-size:20px;
+  color: #303030;
+  padding-right: 20px;
+}
+.icons-header{
+  display: flex;
+  align-items: center;
+}
+
+.icon-clik{
+  padding-right: 15px;
+}
+.icon-clik:last-child{
+  padding-right: 0;
+}
+
+.icon-img{
+  width: 24px;
+  height: 24px;
+}
+.aside{
+  width: 22%;
+  height: 500px;
+  background-color: #f5f5f5;
+ 
+  
+}
+.catalog-list{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+
+}
+.catalog-list a{
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size:20px;
+  color: #303030;
+}
+.image{
+  width: 1090px;
+  height: 500px;
+}
+.aside-slider{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item{
+  width: 270px;
+  height: 480px;
+  text-align:center;
+  border: 0.1px solid;
+  border-radius: 15px;
+ 
+}
+.card-item img{
+  width: 200px;
+  height: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.card-price{
+  font-weight: 600;
+  font-size: 21px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cards-list{
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  background-color: gray;
+  
+}
+.card-btn{
+  width: 80px;
+  height: 40px;
+}
+.main{
+  margin-bottom: 20px;
+}
+
+
+
