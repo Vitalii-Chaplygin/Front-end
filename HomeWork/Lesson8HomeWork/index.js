@@ -36,4 +36,4 @@ for (let i = numberArrey2.length - 1; i >= 0; i--) {
   str = str + numberArrey2[i] + ",";
 }
 
-console.log(str + "]");
+console.log("Элементы массива в обратном направлении: " + str + "]");
