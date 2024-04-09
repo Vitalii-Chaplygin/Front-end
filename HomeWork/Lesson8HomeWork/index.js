@@ -24,8 +24,7 @@ if (userName === user2Name) {
 
 let numberArrey = [3, 45, 66, 19, 6, 89];
 for (let i = 0; i < numberArrey.length; i++) {}
-console.log(
-  "Элементы с индексами 0,2,4 = [" +numberArrey[0] +"," +numberArrey[2] +"," + numberArrey[4]+"]");
+console.log("Элементы с индексами 0,2,4 = [" +numberArrey[0] +"," +numberArrey[2] +"," + numberArrey[4]+"]");
 
 //===================================================================================
 
