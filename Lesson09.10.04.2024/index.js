@@ -1,8 +1,4 @@
-console.log('hello world')
-let a7 = 1;
-let b7 ='2';
-let c7 = a+b;
-console.log(c);
+
 
 // вывод в консоль информации
 // console.log("hello world 333")

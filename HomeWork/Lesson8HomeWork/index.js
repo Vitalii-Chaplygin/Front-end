@@ -33,7 +33,11 @@ console.log("Элементы с индексами 0,2,4 = [" +numberArrey[0] +
 let numberArrey2 = [10, 25, 39, 19, 8, 89];
 let str ="[";
 for (let i = numberArrey2.length - 1; i >= 0; i--) {
-  str = str + numberArrey2[i] + ",";
+  str = str + numberArrey2[i] ;
+ if(i!=0){
+str=str+","
+ }
+
 }
 
 console.log("Элементы массива в обратном направлении: " + str + "]");
