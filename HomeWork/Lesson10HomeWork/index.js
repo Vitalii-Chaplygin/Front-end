@@ -41,7 +41,7 @@ console.log(result4);
 console.log("===============================================");
 
 const arrInteger = [45, 6, 78, 12, 78, 99, 4, 100];
-console.log("Начальный массив: ["+arrInteger.join(",")+"]");
+console.log("Начальный массив: [" + arrInteger.join(",") + "]");
 
 for (i = 0; i < arrInteger.length; i++) {
   for (k = 0; k < arrInteger.length; k++) {
@@ -53,5 +53,5 @@ for (i = 0; i < arrInteger.length; i++) {
   }
 }
 
-const result7=arrInteger.join(',');
-console.log("Отсортированный массив: ["+result7+"]");
+const result7 = arrInteger.join(",");
+console.log("Отсортированный массив: [" + result7 + "]");
