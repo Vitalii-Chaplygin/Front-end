@@ -9,7 +9,7 @@ const res = integer(8, 7);
 console.log(res);
 console.log("===============================================");
 
-const str = "str";
+//const str = "str";
 function strAndInt(str, n) {
   return str.substring(0, n);
 }

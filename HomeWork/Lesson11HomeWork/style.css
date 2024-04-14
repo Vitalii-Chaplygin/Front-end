@@ -1,0 +1,17 @@
+.btn {
+  padding: 15px 30px;
+  background-color: aqua;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.task2-text {
+  font-size: 30px;
+}
+.changeColor {
+  color: rgb(76, 0, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
