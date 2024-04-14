@@ -1,11 +1,7 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+
 .card-wrapper {
   width: 220px;
-  height: 550px;
+  height: 480px;
   padding-top: 40px;
   padding-right: 25px;
   padding-left: 25px;

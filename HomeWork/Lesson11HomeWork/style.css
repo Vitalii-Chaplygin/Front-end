@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
 .btn {
   padding: 15px 30px;
   background-color: aqua;
@@ -7,11 +19,27 @@
   font-weight: bold;
   margin-bottom: 40px;
 }
+
+.btn-text {
+  margin-top: 20px;
+}
+
+.originalText {
+  margin-bottom: 10px;
+}
+
 .task2-text {
   font-size: 30px;
 }
+
 .changeColor {
   color: rgb(76, 0, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
+}
+
+.section-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
 }

@@ -14,4 +14,4 @@ const colorTheText = () => {
   } else {
     button.classList.remove('changeColor');
   }
-};
+}
