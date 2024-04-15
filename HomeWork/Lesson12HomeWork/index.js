@@ -7,12 +7,12 @@ const functionForme = () => {
   const form1 = document.forms.formName;
   const passwordValue = form1.elements.password.value;
   const repeatPasswordValue = form1.elements.RepeatPassword.value;
+  const usernameValue = form1.elements.username.value;
 
-  if (passwordValue=== repeatPasswordValue) {
+  if (passwordValue === repeatPasswordValue && usernameValue !== null) {
     alert("данные отправлены");
   } else {
     alert("повторите ввод, пароли не совпадают");
   }
 };
 document.getElementById("formId").addEventListener("submit", functionForme);
-
