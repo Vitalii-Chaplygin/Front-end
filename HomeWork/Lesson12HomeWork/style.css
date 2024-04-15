@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin-top: 30px;
+}
+
+.sectionForm{
+  width: 70%;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #cacaca;
+
+}
+.form{
+  border: 1px solid #686868;
+  margin: 70px auto;
+  padding: 20px;
+  width: 280px;
+  
+   
+  background: -moz-linear-gradient(19% 75% 90deg, #848484, #D6D6D6) repeat scroll 0 0 transparent;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#848484), to(#D6D6D6));
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-box-shadow:0px -5px 300px #404040;
+  -webkit-box-shadow:0px -5px 300px #404040;
+  box-shadow: 0 -5px 300px #404040;
+}
+
+label {
+  color: #FFFFFF;
+  display: block;
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  list-style-type: none;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px #777777;
+  text-transform: uppercase;
+}
+
+input {
+  background: none repeat scroll 0 0 #C6C6C6;
+  border-color: #E4E4E4 -moz-use-text-color -moz-use-text-color;
+  box-shadow: 0 0 2px #000000;
+  border-style: solid none none;
+  border-width: 1px 0 0;
+  margin-bottom: 10px;
+  padding: 6px;
+  width: 230px;
+}
+input:hover {
+  background: none repeat scroll 0 0 #D6D6D6;
+}
+
+input.submit {
+  background: -moz-linear-gradient(19% 75% 90deg, #BBBBBB, #D7D7D7) repeat scroll 0 0 transparent;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BBBBBB), to(#D7D7D7));
+  border-top: 1px solid #DEDEDE;
+  color: #FFFFFF;
+  margin-top: 10px;
+  font-weight: bold;
+  text-shadow: 1px 1px #777777;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+
+
