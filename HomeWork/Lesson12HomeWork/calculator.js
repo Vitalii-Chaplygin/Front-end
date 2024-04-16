@@ -4,6 +4,8 @@
 // и ему выводится ответ в x1 и  x2  в любом виде.
 
 const calc = (calculatorEvent) => {
+  
+
   const form1 = document.forms.formName;
   const a = form1.elements.number-inta.value;
   const b = form1.elements.number-intb.value;
