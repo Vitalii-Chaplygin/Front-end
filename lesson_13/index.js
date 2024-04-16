@@ -43,13 +43,13 @@ const calculate = (a, b, sign) => {
   switch (sign) {
     case "+":
       return a + b;
-      
+
     case "-":
       return a - b;
-      
+
     case "*":
       return a * b;
-      
+
     case "/":
       return a / b;
     default:
@@ -76,31 +76,17 @@ const clearingValuesAll = () => {
 };
 clearingValuesAll();
 
-
-// const calcResult = () => {
-//   const resCalc = document.getElementById("result");
-//   const firstVal = parseInt(firstNumInput.value);
-//   const secondVal = parseInt(secondNumInput.value);
-
-//   const resText = () => {
-//     resCalc.innerText = `${firstVal} ${sign} ${secondVal} = ${res}`;;
-//   };
-//   firstNumInput.addEventListener("input", resText);
-//   secondNumInput.addEventListener("input", resText);
-// };
-// calcResult();
-
 const calcResult = () => {
-    const resCalc = document.getElementById("result");
-    const firstVal = parseInt(firstNumInput.value);
-    const secondVal = parseInt(secondNumInput.value);
-  
-    const resText = () => {
-      const res = calculate(firstVal, secondVal, sign);
-      resCalc.innerText = `${firstVal} ${sign} ${secondVal} = ${res}`;
-    };
-    resText();
-    firstNumInput.addEventListener("input", resText);
-    secondNumInput.addEventListener("input", resText);
+  const resCalc = document.getElementById("result");
+  const firstVal = parseInt(firstNumInput.value);
+  const secondVal = parseInt(secondNumInput.value);
+
+  const resText = () => {
+    const res = calculate(firstVal, secondVal, sign);
+    resCalc.innerText = `${firstVal} ${sign} ${secondVal} = ${res}`;
   };
-  calcResult();
+  resText();
+  firstNumInput.addEventListener("input", resText);
+  secondNumInput.addEventListener("input", resText);
+};
+calcResult();
