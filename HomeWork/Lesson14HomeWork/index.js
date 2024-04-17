@@ -21,29 +21,24 @@ const outputOnDisplay = () => {
   const divName = document.getElementById("nameId");
   divName.innerText = "name = " + spaceship.name;
 
-
   const manufacturerName = document.getElementById("manufacturerId");
   manufacturerName.innerText = "Manufacturer = " + spaceship.manufacturer;
-
 
   const crew1 = document.getElementById("crewId");
   const crewArray = spaceship.crew.ShipCrew;
   for (i = 0; i < crewArray.length; i++);
-  crew1.innerText=crewArray[i];
-
+  crew1.innerText = crewArray[i];
 
   const divSpeed = document.getElementById("maxSpeedId");
-  divSpeed.innerText = "name = " + spaceship.Speed+"km";
+  divSpeed.innerText = "name = " + spaceship.Speed + "km";
 };
-
 outputOnDisplay();
 
-const hideManufacturer = ()=>{
-  const buttonClear = document.getElementById('btn')
-buttonClear.addEventListener('click',()=>{
-  const manufacturerName = document.getElementById("manufacturerId");
-  manufacturerName.style.display = "none";
-
-});
-}
+const hideManufacturer = () => {
+  const buttonClear = document.getElementById("btn");
+  buttonClear.addEventListener("click", () => {
+    const manufacturerName = document.getElementById("manufacturerId");
+    manufacturerName.style.display = "none";
+  });
+};
 hideManufacturer();
