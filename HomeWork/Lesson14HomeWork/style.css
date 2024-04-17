@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  height: 100vh;
+  /* background-color: #f87878; */
+  background-size: contain;
+  background-image: url(https://rossaprimavera.ru/static/files/f0f5bc81a88d.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.title{
+  font-weight: bold;
+  text-transform: uppercase;
+}
