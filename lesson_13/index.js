@@ -59,34 +59,39 @@ const calculate = (a, b, sign) => {
 
 // подписка события кнопки равно (очистка значений)
 
-const clearingValues = () => {
-  const clear = document.getElementById("res");
-  clear.addEventListener("click", () => {
-    firstNumInput.value = "";
-    secondNumInput.value = "";
-  });
-};
-clearingValues();
+// const clearingValues = () => {
+//   const clear = document.getElementById("res");
+//   clear.addEventListener("click", () => {
+//     firstNumInput.value = "";
+//     secondNumInput.value = "";
+//   });
+
+// clearingValues();
 const clearingValuesAll = () => {
   const clear = document.getElementById("ac");
   clear.addEventListener("click", () => {
     firstNumInput.value = "";
     secondNumInput.value = "";
+    sign = null;
   });
 };
 clearingValuesAll();
 
 const calcResult = () => {
+  debugger;
   const resCalc = document.getElementById("result");
   const firstVal = parseInt(firstNumInput.value);
   const secondVal = parseInt(secondNumInput.value);
 
-  const resText = () => {
+  
     const res = calculate(firstVal, secondVal, sign);
     resCalc.innerText = `${firstVal} ${sign} ${secondVal} = ${res}`;
-  };
-  resText();
-  firstNumInput.addEventListener("input", resText);
-  secondNumInput.addEventListener("input", resText);
-};
-calcResult();
+    firstNumInput.value = "";
+    secondNumInput.value = "";
+    sign = null;
+  
+//   firstNumInput.addEventListener("input", resText);
+//   secondNumInput.addEventListener("input", resText);
+ };
+document.getElementById('res').addEventListener('click',calcResult);
+
