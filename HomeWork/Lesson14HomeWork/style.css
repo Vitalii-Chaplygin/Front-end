@@ -11,6 +11,8 @@
   background-image: url(https://rossaprimavera.ru/static/files/f0f5bc81a88d.jpg);
   background-repeat: no-repeat;
   margin: 0 auto;
+  padding: 15px;
+ 
 }
 
 .header{
@@ -27,4 +29,20 @@
 .title{
   font-weight: bold;
   text-transform: uppercase;
+}
+.Class{
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+button{
+  padding: 15px 30px;
+  background-color: rgb(119, 0, 255);
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  
 }
