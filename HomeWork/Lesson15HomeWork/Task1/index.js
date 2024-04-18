@@ -1,28 +1,30 @@
 // Есть массив чисел - нужно выбрать все числа больше 5
 // (использовать функцию высшего порядка)
 
-// делаем событие Click
+
 const btn = document.getElementById("btnId");
 const btnClear = document.getElementById("btnIdClear");
+
+// делаем событие Click
 
 btn.addEventListener("click", () => {
   let length = document.getElementById("length").value;
   let min = document.getElementById("min").value;
   let max = document.getElementById("max").value;
-  let outputStartArray= document.getElementById("outputStartArray");
+  let outputStartArray = document.getElementById("outputStartArray");
   let output = document.getElementById("output");
   let array = [];
 
   for (let i = 0; i < length; i++) {
     array.push(randomInt(min, max));
   }
+
   const startArray = array;
-   outputStartArray.innerHTML ="Start Array: " +"[" + [startArray.join(" | ")] + "]";
+  outputStartArray.innerHTML =
+    "Start Array: " + "[" + [startArray.join(" | ")] + "]";
 
   const result = array.filter((n) => n > 5);
-  output.innerHTML ="Sort Array: "+ "[" + [result.join(" | ")] + "]";
-
-
+  output.innerHTML = "Sort Array: " + "[" + [result.join(" | ")] + "]";
 });
 
 // генератор случайного числа
@@ -32,6 +34,7 @@ function randomInt(min, max) {
   return rand;
 }
 
+// сброс данных
 const clear = () => {
   btnClear.addEventListener("click", () => {
     document.getElementById("min").value = "";
@@ -41,4 +44,5 @@ const clear = () => {
     document.getElementById("length").value = "";
   });
 };
+
 clear();
