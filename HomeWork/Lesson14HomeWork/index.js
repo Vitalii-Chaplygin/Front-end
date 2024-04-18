@@ -26,11 +26,18 @@ const outputOnDisplay = () => {
 
   const crew1 = document.getElementById("crewId");
   const crewArray = spaceship.crew.ShipCrew;
-  for (i = 0; i < crewArray.length; i++);
-  crew1.innerText = crewArray[i];
+  
+  
+  crew1.innerText = crewArray;
+
+
+
+
+
+
 
   const divSpeed = document.getElementById("maxSpeedId");
-  divSpeed.innerText = "name = " + spaceship.Speed + "km";
+  divSpeed.innerText = "speed = " + spaceship.Speed + "km";
 };
 outputOnDisplay();
 
