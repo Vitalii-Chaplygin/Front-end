@@ -93,24 +93,18 @@ harley.displayMainInfo();
 console.log("");
 honda.displayMainInfo();
 
-
 function displayTransportInfo(transport) {
-  const list = document.getElementById("listTtansport"); 
+  const list = document.getElementById("listTtansport");
 
-  const listItem = document.createElement("li"); 
-  
+  const listItem = document.createElement("li");
+
   const textContent = document.createTextNode(
-   
-  //  transport.displayMainInfo()
     `Make: ${transport.make}, Model: ${transport.model}, Year: ${transport.year}`
   );
 
- 
   listItem.appendChild(textContent);
   list.appendChild(listItem);
 }
-
-
 
 const auto = document.getElementById("auto");
 auto.addEventListener("click", () => {
