@@ -1,6 +1,6 @@
 
 
-
+const btn = document.getElementById('btn');
 let urlGeorgiaUniversiti = "http://universities.hipolabs.com/search?country=Georgia";
 const listeorgiaUniversiti = () => 
   fetch(urlGeorgiaUniversiti)
@@ -12,10 +12,12 @@ const listeorgiaUniversiti = () =>
     })
     .then((data) => {
       data.forEach(item => {
-        console.log(item);
+        console.log(data[0]);
       });
       
     });
 
+btn.addEventListener('click',listeorgiaUniversiti);
 
-listeorgiaUniversiti();
+
+
