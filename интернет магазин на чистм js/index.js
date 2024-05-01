@@ -20,5 +20,9 @@ let card = document.createElement('div')
 card.className ='card'
 main.appendChild(card)
 
+// добавляем фото
+let image = document.createElement('img')
+image.src=' /images/'
+
 
 

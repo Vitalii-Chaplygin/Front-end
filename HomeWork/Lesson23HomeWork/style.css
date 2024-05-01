@@ -1,0 +1,22 @@
+* {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(var(--color-iuu1rflc1), 0.8) 10%,
+      rgba(var(--color-ioau4tqtg), 0) 40%
+    ),
+    linear-gradient(
+      to right top,
+      rgba(var(--color-i37tsmnx5), 0.8) 10%,
+      rgba(var(--color-iyw6tdn5r), 0) 40%
+    ),
+    linear-gradient(
+      to right,
+      rgba(var(--color-i399ddpoz), 0.8) 30%,
+      rgba(var(--color-ielwqltd5), 0) 75%
+    ),
+    linear-gradient(
+      rgba(var(--color-iamx1p33t), 1) 0%,
+      rgba(var(--color-itzcjn8k5), 0) 25%
+    ),
+    var(--image-i236g5o2i);
+}
