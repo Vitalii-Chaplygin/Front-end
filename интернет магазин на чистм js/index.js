@@ -22,7 +22,7 @@ main.appendChild(card)
 
 // добавляем фото
 let image = document.createElement('img')
-image.src=' /images/'
+image.src= 
 
 
 
