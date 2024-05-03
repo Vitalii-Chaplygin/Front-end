@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>погода</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <h1 class="title">Прогноз погоды</h1>
+      <form id="form" class="form">
+        <input
+          id="input"
+          class="input"
+          type="text"
+          placeholder="введите город"
+        />
+        <button id="btn" class="btn">показать</button>
+      </form>
+    </header>
+    <div class="card">
+      <h2 id="name" class="city">Berlin</h2>
+      <div class="card-weather">
+        <div id="temp" class="temperature">22<sup>°c</sup></div>
+
+        <img class="img" src="./img/sunny.png" alt="image" />
+      </div>
+      <div id="desc" class="card-description">солнечно</div>
+    </div>
+  </body>
+</html>

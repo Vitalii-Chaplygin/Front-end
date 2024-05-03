@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.header {
+  width: 100%;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px, 15px, 50px;
+  background: rgb(143, 143, 143);
+}
+
+.form {
+  height: 54px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1;
+  border: none;
+  color: black;
+}
+input:focus {
+  outline: none;
+}
+
+.title {
+  font-size: 44px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  line-height: 1.18;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card {
+  padding: 30px;
+  background-color: aqua;
+  border-radius: 6px;
+  width: 460px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.city {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.card-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temperature {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 1;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  color: #ffffff;
+  width: 145px;
+  height: 54px;
+  background-color: rgb(47, 53, 50);
+  border-radius: 6px;
+  border: none;
+}

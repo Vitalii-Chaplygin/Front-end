@@ -32,3 +32,16 @@ const listeorgiaUniversiti = () => {
 };
 
 btn.addEventListener("click", listeorgiaUniversiti);
+
+
+
+
+
+
+
+
+
+
+const key = '8da7eb98827f0176fac0aabb476afe00';
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}'
