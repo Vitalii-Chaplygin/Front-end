@@ -8,20 +8,19 @@ const url1 =
 const form = document.getElementById("form");
 const input = document.getElementById("input");
 const button = document.getElementById("btn");
-let city;
-
+const cardDisplay = document.querySelector(".card");
 form.onsubmit = showWeather;
 
-  async function showWeather(e) {
-    e.preventDefault();
-    if (!input.value.trim()) {
-      console.log("нажмите");
-      return;
-    }
-    const cityInformation = await getWeather(input.value.trim());
-    weather(cityInformation); 
+async function showWeather(e) {
+  e.preventDefault();
+  cardDisplay.style.display = "block";
+  if (!input.value.trim()) {
+    return;
   }
-
+  const cityInformation = await getWeather(input.value.trim());
+  weather(cityInformation);
+  
+}
 
 async function getWeather(name) {
   const getUrl = `https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=${key}&units=metric`;
@@ -32,12 +31,12 @@ async function getWeather(name) {
 }
 
 function weather(data) {
+
   const cityName = document.getElementById("name");
   const temperature = document.getElementById("temp");
   const description = document.getElementById("desc");
 
-  
   cityName.textContent = data.name;
-  temperature.textContent = `${data.main.temp}°C`; 
+  temperature.textContent = Math.round(data.main.temp) + "°C";
   description.textContent = data.weather[0].main;
 }
